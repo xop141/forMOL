@@ -22,6 +22,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .text-container {
+  background-color: #000;
  display: none;
  position: absolute;
  top: 30px;
@@ -30,10 +31,6 @@ body {
   border-radius: 10px;
   box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
 }
-
-
-
-
 
 
 
@@ -64,6 +61,7 @@ h1 span.prefix:hover {
 }
 
 .message {
+  width: fit-content;
   background: linear-gradient(45deg, #a8d8ea, #aa96da);
   color: #000;
   display: block;
@@ -88,7 +86,7 @@ h1 span.prefix:hover {
 .word1, .word2, .word3, .word4 {
   font-family: tahoma;
   position: absolute;
-  width: 100%;
+  
   opacity: 0;
   height: 4.5rem;
 }
